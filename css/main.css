@@ -1,0 +1,141 @@
+* {
+	transition: all .1s ease-in;
+	box-sizing: border-box;
+}
+
+html {
+	border: 15px solid white;
+	font-family: “Trebuchet MS”, Trebuchet, Arial, sans-serif;
+	background: #3B3F45;
+	font-size: 22px;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	height: 100%;
+	margin: 0;
+}
+html, body {
+	min-height: 100%;
+	height: 100%;
+}
+.container {
+	min-height: 100%;
+	height: auto;
+	
+}
+h1, p {
+	margin: 0;
+}
+
+header {
+	background: #4A4F56;
+	color: #EB7E7F;
+	text-align: center;
+	width: 100%;
+	height: 15%;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+main {
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+form {
+	width: 65%;
+}
+
+footer {
+	background: #4A4F56;
+	color: #EB7E7F;
+	width: 65%;
+	height: 10%;
+	text-align: center;
+}
+
+footer:before, header:before {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    content: "";
+    /*border: 1px solid red;*/
+}
+
+div {
+	display: inline-block;
+    vertical-align: middle;
+    /*border: 1px solid red;*/
+}
+
+/*#BonApp {
+	font-size: 22px;
+	border: 1px solid red;
+}*/
+
+.center {
+	margin: auto;
+}
+
+.description {
+	color: #CDCBD6;
+	font-size: 14px;
+	vertical-align: middle;
+}
+
+span.description:before {
+	content: '( ';
+}
+
+span.description:after {
+	content: ' )';
+}
+
+label {
+	display: block;
+	border: 2px solid transparent;
+	background: #88839E;
+	color: white;
+	height: 16.7%;
+	line-height: 40px;
+}
+
+label:nth-child(2n) {
+	background: #7A7593;
+}
+
+label:hover {
+	border-bottom: 2px solid white;
+	border-top: 2px solid white;
+	background: #605C75;
+}
+label:active {
+	background: /*#EB7E7F */rgba(235,126,127, 0.4);
+	/*opacity: 0.4;*/
+	border-bottom: 2px solid white;
+	border-top: 2px solid white;
+}
+input:checked + span {
+	color: #CDCBD6;
+	text-decoration: line-through;
+}
+
+input[type="checkbox"] {
+	margin-top: 0;
+	margin-bottom: 0;
+	zoom:1.6;
+	vertical-align: middle;
+}
+input[type="checkbox"] + span {
+	display: inline-block;
+	/*border: 1px solid red;*/
+	vertical-align: middle;
+}
+span > span {
+	/*vertical-align: middle;*/
+	/*border: 1px solid red;*/
+}
